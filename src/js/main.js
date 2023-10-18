@@ -9,7 +9,9 @@ function convertPokemonToLi(pokemon) {
     return `
     <div class="card-pokemon">
 		<div class="pokemon ${pokemon.type}">
-			<div class="bg-pokeball"></div>
+			<div class="wm-pokeball">
+                <img class="img-wm" alt="Pokeball Watermark" src="/src/assets/wm.png">
+            </div>
 			<span class="number">#${pokemon.number}</span>
 
 			<div class="name">
@@ -17,13 +19,13 @@ function convertPokemonToLi(pokemon) {
 					${pokemon.name}
 				</h2>
 
-				<ol class="types">
+				<div class="types">
 					${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
-				</ol>
+				</div>
 			</div>
 
 			<div class="pokemon-image">
-				<img alt=${pokemon.name} src="${pokemon.photo}"/>
+				<img class="img-pokemon" alt=${pokemon.name} src="${pokemon.photo}"/>
 			</div>
 
 		</div>
