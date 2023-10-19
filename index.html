@@ -28,18 +28,17 @@
 </head>
 
 <body>
-    <section class="header">
+    <!-- <section class="header">
+        <div class="search-bar__container">
+            <h1 class="search-bar__title">Pokedex</h1>
+            <input oninput="getPokemonPorNome" id="pokemonInput" class="search-bar__input" placeholder="Ex: Pikachu">
+        </div>
+    </section> -->
+
+    <section class="content">
         <div class="logo__container">
             <img class="logo__img" src="/src/assets/logo.png" alt="Logo do Pokemón">
         </div>
-        <div class="search-bar__container">
-            <h1 class="search-bar__title">Pokedex</h1>
-            <input id="buscarPokemon" class="search-bar__input" placeholder="Ex: Pikachu">
-            <button onclick="fazerRequisicaoGet()">Buscar</button>
-        </div>
-    </section>
-
-    <section class="content">
         <div id="pokemonList" class="pokemons">
             <!-- ..... Pokemons here ..... -->
         </div>
