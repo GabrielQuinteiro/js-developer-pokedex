@@ -4,4 +4,4 @@ Pokedex criada utilizando a [PokeAPI](https://pokeapi.co/api/v2/), seguindo o de
 # Desafio de Projeto
 - Fazer melhorias no projeto base
 
-!["Preview Image"](src\assets\Screenshot_pokedex.png)
+!["Preview Image"](src/assets/Screenshot_pokedex.png)
